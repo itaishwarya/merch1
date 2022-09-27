@@ -1,0 +1,105 @@
+
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel studios Merchandise</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        
+  
+    <div class="container">
+        <div class="navbar">
+         <div class="logo">
+             <a href=""><img src="screenshots/88ad7883-44e9-4f2d-ac2d-200e52611c21.jpg" width="125px"></a>
+         </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <img src="screenshots/cart.png" width="30px" height="30px">
+        <img src="screenshots/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Marvel Collection!</h1>
+            <p>Everythig you need<br>is here.</p>
+            <a href=""  class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="screenshots/adcb0b63-b1a6-4dca-b953-e3db6852599b.jpg">
+        </div>
+
+    </div>
+    </div>
+ </div>
+<!------------featured categories--------->
+   <div class="categories">
+       <div class="small-container">
+           <div class="row">
+           <div class="col-3">
+               <img src="screenshots/810ef0ed-a77a-4ae8-85bd-155d484018a0.jpg">
+           </div>
+           <div class="col-3">
+               <img src="screenshots/adcb0b63-b1a6-4dca-b953-e3db6852599b.jpg">
+           </div>
+           <div class="col-3">
+               <img src="screenshots/category-3.jpg">
+           </div>
+       </div>
+       </div>
+       
+   </div> 
+<!-------featured products----->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="screenshots/810ef0ed-a77a-4ae8-85bd-155d484018a0.jpg">
+                <h4>SpiderMan Poster</h4>
+                <p>$5.00</p>
+            </div>
+            <div class="col-4">
+                <img src="screenshots/4dcb7975-da1d-439d-b0b2-52de6e2f7a41.jpg">
+                <h4>Captain Marvel Poster</h4>
+                <p>$5.00</p>
+            </div>
+            <div class="col-4">
+                <img src="screenshots/cf6ed341-1568-4d6f-b866-05139f19f881.jpg">
+                <h4>Iron Man Poster</h4>
+                <p>$5.00</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight=="0px")          
+                {
+                    MenuItems.style.maxHeight= "200px";
+                }
+            else{
+                MenuItems.style.maxHeight= "0px";
+            }
+        }
+        
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
